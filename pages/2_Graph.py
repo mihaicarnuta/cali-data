@@ -223,8 +223,8 @@ plot_dichotomous_numeric_bar(df, "Contains_personalization", "Reply_rate")
 plot_categorical_numeric_bar(df, "Day_of_Week_sent", "Delivery_rate")
 plot_categorical_numeric_bar(df, "Day_of_Week_sent", "Reply_rate")
 
-plot_categorical_numeric_bar(new_df, "Country_of_recipients", "Delivery_rate")
-plot_categorical_numeric_bar(new_df, "Country_of_recipients", "Reply_rate")
+# plot_categorical_numeric_bar(new_df, "Country_of_recipients", "Delivery_rate")
+# plot_categorical_numeric_bar(new_df, "Country_of_recipients", "Reply_rate")
 
 
 # Create quartile bins with readable labels
